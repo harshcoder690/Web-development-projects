@@ -1,0 +1,234 @@
+#title {
+    background-color: #ff4c67;
+    padding: 2% 15%;
+    /* position: absolute;
+    z-index: -1; */
+}
+
+.title-body {
+    padding-top: 6%;
+    padding-bottom: 10%;
+}
+
+.features {
+    position: relative;
+    background-color: white;
+    /* z-index: 1; */
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.titlepage {
+    color: white;
+    font-size: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.head {
+    font-size: 3rem;
+}
+
+.tick {
+    size: 5%;
+    padding: 3%;
+    color: #ef8172;
+}
+
+.features-box {
+    text-align: center;
+}
+
+.heart {
+    size: 5%;
+    padding: 3%;
+    color: #ef8172;
+}
+
+.target {
+    size: 5%;
+    padding: 3%;
+    color: #ef8172;
+}
+
+.tick:hover {
+    color: #ff4c68;
+}
+
+.heart:hover {
+    color: #ff4c68;
+}
+
+.target:hover {
+    color: #ff4c68;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.img {
+    transform: rotate(25deg);
+    width: 20%;
+    position: absolute;
+    right: 20%;
+}
+
+.titlebar {
+    padding-bottom: 5%;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.applebtn {
+    margin: auto 5px auto 5px;
+}
+
+.storebtn {
+    margin: auto 5px auto 5px;
+}
+
+.nav-item {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+    padding: 5%;
+}
+
+.container-fluid {
+    padding: 3%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10rem;
+    line-height: 2;
+    color: white;
+    padding: 7% 1%;
+}
+
+.h2text {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+}
+
+em {
+    color: white;
+    padding: 2%;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.press-image {
+    width: 15%;
+    padding: 2%;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#pricing {
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.card-body {
+    background-color: white;
+}
+
+.body-head {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    ;
+}
+
+@media (max-width:1028px) {
+    .img {
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+        padding-top: 10%;
+    }
+    #title {
+        text-align: center;
+    }
+    #pricing {
+        text-align: center;
+    }
+    .features-box2 {
+        align-items: center;
+        align-content: center;
+        text-align: center;
+    }
+}
+
+
+/* cta section */
+
+#cta {
+    padding: 5% 15%;
+    text-align: center;
+    background-color: #ff4c68;
+}
+
+.ctahead {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.buttoncta {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#footer {
+    padding: 5% 15%;
+    text-align: center;
+}
+
+.icon {
+    padding: 1.2%;
+}
+
+.footer-text {
+    font-size: 1.2rem;
+    padding-top: 1%;
+}
+
+.feature-text {
+    text-align: center;
+    font-size: 1rem;
+    font-style: bold;
+}
+
+.feature-row {
+    text-align: center;
+}
